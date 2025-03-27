@@ -1,0 +1,99 @@
+##KUSTOMCLIP##
+{
+  "clip_version": 1,
+  "clip_cut": [],
+  "clip_modules": [
+    {
+      "internal_type": "StackLayerModule",
+      "internal_title": "Minutes",
+      "config_margin": -60,
+      "viewgroup_items": [
+        {
+          "internal_type": "OverlapLayerModule",
+          "internal_title": "First Digit",
+          "viewgroup_items": [
+            {
+              "internal_type": "TextModule",
+              "internal_toggles": {
+                "paint_color": 100
+              },
+              "internal_globals": {
+                "paint_color": "accent11"
+              },
+              "text_expression": "$tc(cut, df(mm), 1)$",
+              "text_family": "kfile://org.kustom.space.kwgt_000017/fonts/Urbanist-800.ttf",
+              "text_size_type": "FIXED_WIDTH",
+              "text_width": 70,
+              "text_size": 100,
+              "text_align": "CENTER",
+              "paint_stroke": 5,
+              "position_anchor": "TOPLEFT",
+              "position_padding_left": 5
+            },
+            {
+              "internal_type": "TextModule",
+              "internal_toggles": {
+                "paint_color": 100
+              },
+              "internal_globals": {
+                "paint_color": "accent21"
+              },
+              "text_expression": "$tc(cut, df(mm), 1)$",
+              "text_family": "kfile://org.kustom.space.kwgt_000017/fonts/Urbanist-800.ttf",
+              "text_size_type": "FIXED_WIDTH",
+              "text_width": 60,
+              "text_size": 94,
+              "text_align": "CENTER",
+              "paint_stroke": 5,
+              "position_anchor": "TOPLEFT",
+              "position_padding_top": 5
+            }
+          ]
+        },
+        {
+          "internal_type": "OverlapLayerModule",
+          "internal_title": "Second Digit",
+          "position_padding_left": 50,
+          "viewgroup_items": [
+            {
+              "internal_type": "TextModule",
+              "internal_toggles": {
+                "paint_color": 100
+              },
+              "internal_globals": {
+                "paint_color": "accent21"
+              },
+              "text_expression": "$tc(cut, df(mm), -1)$",
+              "text_family": "kfile://org.kustom.space.kwgt_000017/fonts/Urbanist-800.ttf",
+              "text_size_type": "FIXED_WIDTH",
+              "text_width": 70,
+              "text_size": 100,
+              "text_align": "CENTER",
+              "paint_stroke": 5,
+              "position_padding_left": 5
+            },
+            {
+              "internal_type": "TextModule",
+              "internal_toggles": {
+                "paint_color": 100
+              },
+              "internal_globals": {
+                "paint_color": "accent11"
+              },
+              "text_expression": "$tc(cut, df(mm), -1)$",
+              "text_family": "kfile://org.kustom.space.kwgt_000017/fonts/Urbanist-800.ttf",
+              "text_size_type": "FIXED_WIDTH",
+              "text_width": 60,
+              "text_size": 94,
+              "text_align": "CENTER",
+              "paint_stroke": 5,
+              "position_padding_top": 5,
+              "position_anchor": "TOPLEFT"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+##KUSTOMCLIP##
