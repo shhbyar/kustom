@@ -9,3 +9,7 @@ First, download the raw files from ./raw . Then move the files to your phone's s
 - The widget size doesn't feel right?
 
 Open Kustom, move to the widgets customization page, select `layer`, change `scale` to your desired amount.
+
+- What are "Components"?
+
+Components are reuseable parts of widgets, in form of `KUSTOMCLIP`, so they can be easily added to a widget.
